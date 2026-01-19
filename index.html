@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Для моєї найкращої булочки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- СТОРІНКА 1 -->
+<section class="step active" id="step-1">
+    <div class="center">
+        <h1>Сюрприз</h1>
+        <p>Бубочка моя любіма, я захотів зробити для тебе невеликий сайто-сюрприз</p>
+        <button onclick="nextStep()">Нажми сюда бубик</button>
+    </div>
+</section>
+
+<!-- СТОРІНКА 2 -->
+<section class="step" id="step-2">
+    <div class="lower">
+        <h2>Я хочу, щоб ти знала</h2>
+        <p>
+            Я бачу, як ти стараєшся.<br>
+            Як тобі важко триматися, але ти дуже сильна і супер крута булочка,
+            яка зможе пройти це все і ми з тобою скоро це відсвяткуємо і дуже класно потусимо
+
+        </p>
+        <button onclick="nextStep()">Нажимай сюда супер сміфняфка</button>
+    </div>
+</section>
+
+<section class="step" id="step-3">
+    <div class="left-content">
+        <h2>Незакритий гештальт сонце</h2>
+        <button id="actionBtn3" onclick="showPhoto()">Якщо хочеш подивитися то тисни)</button>
+    </div>
+
+    <div id="rightPhoto" class="photo-right"></div>
+    <div id="loveText" class="love">Цієї весни ми 100% тут побуваємо і зробимо супер круті фоточки(не найшов без людей гарнішої фотки)</div>
+</section>
+
+<!-- СТОРІНКА 4 -->
+<section class="step" id="step-4">
+    <button id="actionBtn4" onclick="showCornerNote()">Ефектна мотивація</button>
+</section>
+
+<!-- СТОРІНКА 5 -->
+<section class="step" id="step-5">
+    <div class="upper">
+        <h2>Це все шо я встиг за сьогодні</h2>
+        <p>
+            Але попробуй вгадати що це за фото)?<br>
+            І я тебе дуже дуже дуже мега сильно сильнішееееееееее тебе кохаюююююю моя прекрасна квіточка❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
